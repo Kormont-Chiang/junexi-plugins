@@ -1,0 +1,192 @@
+{
+ "generated": "JuneXi market_build",
+ "plugins": [
+  {
+   "id": "acad-feed",
+   "name": "学术动态",
+   "version": "0.2",
+   "desc": "arXiv 数字人文/数字史学 + Medievalists.net 中世纪研究 + JSTOR Daily 学术通识，RSS 多源 30min 缓存+磁盘兜底。面板位于仪表盘。",
+   "author": "JuneXi 官方",
+   "permissions": [],
+   "url": "packages/acad-feed.jxplugin",
+   "sha256": "ce24bdc1e09de2ffc287dd21a27d2cbd458193ceedd4513b3c136cdad9738610",
+   "size": 24258,
+   "official": true
+  },
+  {
+   "id": "ai-agent",
+   "name": "AI 自动操作 (agent)",
+   "version": "1.0",
+   "desc": "给 AI 助手装上\"手\": function calling 工具循环, 直接操作 JuneXi——查 CBDB/开详情/上图。开关在 AI 助手页左侧。禁用时 AI 页退回纯对话。",
+   "author": "JuneXi",
+   "permissions": [],
+   "url": "packages/ai-agent.jxplugin",
+   "sha256": "7a1cb851f7d4fd0ff6f1442069b938d52be1fa4105e98ceb1b0b4d8948f98daf",
+   "size": 15002,
+   "official": true
+  },
+  {
+   "id": "baidu-ocr",
+   "name": "百度 OCR（云端高精度·繁体）",
+   "version": "0.1.0",
+   "desc": "",
+   "author": "JuneXi",
+   "permissions": [
+    "network"
+   ],
+   "url": "packages/baidu-ocr.jxplugin",
+   "sha256": "ec44b093032802dac7ee1a8d0043ff796730e02a7dd336c69bd48367a1a2e825",
+   "size": 10012,
+   "official": true
+  },
+  {
+   "id": "cbdb",
+   "name": "CBDB 检索",
+   "version": "1.0",
+   "desc": "中国历代人物传记资料库本地化检索全家桶: 29 路由(人名/职官/地名/入仕/社会区分/著作/亲属递归/社会关系/路径/地理/年份) + 连接层 + 预热",
+   "author": "JuneXi 官方",
+   "permissions": [],
+   "url": "packages/cbdb.jxplugin",
+   "sha256": "5b6c63f52fc4a8f74fa55118604d3ab6ac417decbf9064931033b5c05633bbb9",
+   "size": 116507,
+   "official": true
+  },
+  {
+   "id": "connector-crossref",
+   "name": "CrossRef 文献连接器",
+   "version": "1.0.0",
+   "desc": "",
+   "author": "Auto-Korm",
+   "permissions": [],
+   "url": "packages/connector-crossref.jxplugin",
+   "sha256": "5e946dd7a0208bb5e8bd4bd7bf7eb4780a6337e24f858fd057e4d51b05ed5bb9",
+   "size": 1394,
+   "official": true
+  },
+  {
+   "id": "connector-ctext",
+   "name": "ctext 古籍连接器",
+   "version": "1.0.0",
+   "desc": "",
+   "author": "Auto-Korm",
+   "permissions": [],
+   "url": "packages/connector-ctext.jxplugin",
+   "sha256": "5b392eef12c427c7d6dc5e09de6d593a7894939de9f2cdcf5315fefd872bc9a0",
+   "size": 1284,
+   "official": true
+  },
+  {
+   "id": "connector-openlib",
+   "name": "Open Library 图书连接器",
+   "version": "1.0.0",
+   "desc": "",
+   "author": "Auto-Korm",
+   "permissions": [],
+   "url": "packages/connector-openlib.jxplugin",
+   "sha256": "f11e3e161c2b34c471807fc07852f5fe48cc68f06b8f260326070e3701469e08",
+   "size": 1411,
+   "official": true
+  },
+  {
+   "id": "connector-wikidata",
+   "name": "Wikidata 知识图谱连接器",
+   "version": "1.0.0",
+   "desc": "",
+   "author": "Auto-Korm",
+   "permissions": [],
+   "url": "packages/connector-wikidata.jxplugin",
+   "sha256": "0cb3f06ae52fddad99529edd60992cd1eddcf6d3c698c052eeba40f9cf93841d",
+   "size": 1540,
+   "official": true
+  },
+  {
+   "id": "lingmu-ocr",
+   "name": "灵眸 OCR（PP-OCRv6 本地引擎）",
+   "version": "0.2.0",
+   "desc": "",
+   "author": "JuneXi",
+   "permissions": [],
+   "url": "packages/lingmu-ocr.jxplugin",
+   "sha256": "76ec1ec9180d135998392186882cb7269d7c226a0a8ddaafca73d1a40446226a",
+   "size": 21307,
+   "official": true
+  },
+  {
+   "id": "litgraph",
+   "name": "文献图谱",
+   "version": "0.1",
+   "desc": "顺藤摸瓜: 粘贴知网/国社科导出的题录(Refworks/GB7714), 一键生成引用关系网(参考文献+引证文献), 侧栏题录+原文检索跳转。数据源边界: 程序不直连知网(反爬+条款), 走官方导出; 国社科无开放API, 同走导出或页面检索跳转。",
+   "author": "JuneXi",
+   "permissions": [],
+   "url": "packages/litgraph.jxplugin",
+   "sha256": "ff69467ac195b127af5f5348f046a948574d5f596dbbdc355c4da823c12efe41",
+   "size": 63042,
+   "official": true
+  },
+  {
+   "id": "local-llm",
+   "name": "local-llm",
+   "version": "1.0.1",
+   "desc": "本地 Ollama 模型供应商(接缝插件): AI 助手里出现'本地·xxx'模型, 数据不出机; 禁用/卸载本插件即整体消失",
+   "author": "JuneXi 官方",
+   "permissions": [],
+   "url": "packages/local-llm.jxplugin",
+   "sha256": "e9446aca0f42d45fd1684f60b8feb3d1d1f48a9bd662c14baeee4c171856e41a",
+   "size": 7405,
+   "official": true
+  },
+  {
+   "id": "mineru-pdf",
+   "name": "MinerU PDF 解析",
+   "version": "0.1",
+   "desc": "PDF 结构化提取：扫描件→Markdown，公式/表格/多栏排版。云端 SDK（Flash 免费模式），可选 API Token 提精度。",
+   "author": "JuneXi 官方",
+   "permissions": [],
+   "url": "packages/mineru-pdf.jxplugin",
+   "sha256": "de29ab2c56615935d499a3446b1d216ad92ae62a8e9f889794ea47a30901cfab",
+   "size": 8308,
+   "official": true
+  },
+  {
+   "id": "paddle-ocr",
+   "name": "PaddleOCR 引擎",
+   "version": "0.1",
+   "desc": "PP-OCRv6 medium 高精度引擎，正文零错误但慢 7x。依赖 paddleocr+paddlepaddle（可选安装，装后卡片显示就绪）。",
+   "author": "JuneXi 官方",
+   "permissions": [],
+   "url": "packages/paddle-ocr.jxplugin",
+   "sha256": "3aed016bf080a4405f9498a7172447a6fe8eb4294d92fa9e9677f313a1b6e505",
+   "size": 8898,
+   "official": true
+  },
+  {
+   "id": "poetry",
+   "name": "诗书典",
+   "version": "1.0.0",
+   "desc": "GitHub chinese-poetry 数据集本地检索: 全唐诗(首卷1000首, 繁简双索引)+论语(全20章)。页签搜诗, 工作流节点 poetry.search / poetry.random 可编排。数据随插件, 离线可用。",
+   "author": "Auto-Korm (数据集: chinese-poetry 社区, GitHub)",
+   "permissions": [],
+   "url": "packages/poetry.jxplugin",
+   "sha256": "fd1fcafcc0d2439a3842b1585a99192989860a483c15542ef5e53c4064cb8183",
+   "size": 307775,
+   "official": true
+  },
+  {
+   "id": "zotero",
+   "name": "Zotero 联动",
+   "version": "1.0",
+   "desc": "本地 Zotero 代理(状态/检索/书库/附件) + 最近阅读 + PDF 内嵌直读 + 笔记落盘 Obsidian 文献笔记",
+   "author": "JuneXi 官方",
+   "permissions": [],
+   "url": "packages/zotero.jxplugin",
+   "sha256": "ee8a8f6e91adcf62a5dc4a0a24e7c6816e067f121db4e5c97bd5f6f61297289b",
+   "size": 30660,
+   "official": true
+  }
+ ],
+ "publisher": {
+  "id": "junexi-official",
+  "pubkey": "3CLN9J0UE0cP7FUk1YBQOsWFq/sKSdWaayzYmyZri0A="
+ },
+ "sig": "CJahLzPpn6KIw+5mqjUDENHUxN1Ex4f0QkwBefyhbjoH+i2WY4whxUeVq32DgWnSRgBt3fasFWxusNnwz5A1AA=="
+}
